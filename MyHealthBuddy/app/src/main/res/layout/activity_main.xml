@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.goodies.myhealthbuddy.MainActivity">
+
+    <Button
+        android:id="@+id/exerciseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Exercise Monitor"
+        android:onClick="toExercise"/>
+
+    <Button
+        android:id="@+id/healthAdviceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exerciseButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="Health Advice"
+        android:onClick="toAdvice"/>
+
+    <Button
+        android:id="@+id/rateUsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/healthAdviceButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="Rate Us"
+        android:onClick="toRateUs"/>
+</RelativeLayout>
